@@ -1,0 +1,10 @@
+[workspace]
+authors = ["nkrchak <noah-krchak@uiowa.edu>"]
+channels = ["conda-forge"]
+name = "SimpleITK-Notebooks"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
