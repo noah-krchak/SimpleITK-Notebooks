@@ -11,3 +11,6 @@ build
 .*.swp
 .mha
 .jpg
+# pixi environments
+.pixi/*
+!.pixi/config.toml
