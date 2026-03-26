@@ -33,4 +33,4 @@ pyenchant = "*"
 ipython = "<=8.12"
 
 [environments]
-dev = { features = ["dev"], no-default-feature = true }
+dev = { features = ["default","dev"], no-default-feature = true }
