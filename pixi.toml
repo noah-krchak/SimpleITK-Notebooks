@@ -23,3 +23,14 @@ numba = "*"
 multiprocess = "*"
 tqdm = "*"
 requests = "*"
+
+[feature.dev.pypi-dependencies]
+black = { version = "*", extras = ["jupyter"] }
+pytest = "*"
+markdown = "*"
+lxml = "*"
+pyenchant = "*"
+ipython = "<=8.12"
+
+[environments]
+dev = { features = ["dev"], no-default-feature = true }
