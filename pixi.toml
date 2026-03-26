@@ -9,3 +9,17 @@ version = "0.1.0"
 
 [dependencies]
 python = ">=3.11,<3.12"
+
+[pypi-dependencies]
+simpleitk = ">2.2.1"
+jupyter = "*"
+matplotlib = "*"
+ipywidgets = "*"
+ipympl = "*"
+numpy = "*"
+scipy = "*"
+pandas = "*"
+numba = "*"
+multiprocess = "*"
+tqdm = "*"
+requests = "*"
